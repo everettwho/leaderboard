@@ -164,11 +164,21 @@ class Leaderboard extends Component {
           )}
           <div className={styles.creditLink}>
             Icons made by{' '}
-            <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
+            <a
+              href="https://www.flaticon.com/authors/freepik"
+              title="Freepik"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Freepik
             </a>{' '}
             from{' '}
-            <a href="https://www.flaticon.com/" title="Flaticon">
+            <a
+              href="https://www.flaticon.com/"
+              title="Flaticon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               www.flaticon.com
             </a>
           </div>
