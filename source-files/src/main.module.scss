@@ -1,0 +1,102 @@
+.leaderboard {
+  display: flex;
+  margin-top: 12vh;
+  margin-bottom: 20vh;
+  justify-content: center;
+}
+
+.contentWrapper {
+  width: 540px;
+  min-width: 540px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+
+  & > svg {
+    width: 16px;
+    height: 16px;
+    margin-left: 12px;
+    fill: #fff;
+    background-color: #2e323b;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #403f4c;
+    }
+  }
+}
+
+.spinner {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+
+  > img {
+    width: 24px;
+    height: 24px;
+    animation: spinner 1.5s linear infinite;
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e323b;
+  height: 44px;
+  padding: 12px 24px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+
+  &:hover {
+    background-color: #403f4c;
+  }
+
+  .nameBadge {
+    & > span {
+      margin-right: 28px;
+      padding: 4px 10px;
+      border-radius: 50%;
+      font-weight: 700;
+    }
+
+    .badge0 {
+      background-color: #daa520;
+    }
+
+    .badge1 {
+      background-color: #918e8c;
+    }
+
+    .badge2 {
+      background-color: #9c5221;
+    }
+  }
+}
+
+.creditLink {
+  margin-top: 36px;
+  font-size: 12px;
+
+  & > a {
+    color: #959eb1;
+  }
+}
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
