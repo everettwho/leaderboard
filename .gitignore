@@ -2,6 +2,7 @@
 
 # dependencies
 /sources-files/node_modules
+/sources-files/build
 
 # misc
 .DS_Store
