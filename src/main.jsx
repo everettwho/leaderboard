@@ -53,6 +53,10 @@ const players = [
     name: 'A-A-Ron',
     wallet: '0x1DE55cE7B9F84A5Ad147107Fe506B6f2F189f2C2',
   },
+  {
+    name: 'The Juice Cleanse Queen',
+    wallet: '0x2AfB9A38b72C7cc612aF700C5C1f117E46bc18A8',
+  },
 ];
 
 const ACCOUNTS_URI = 'https://api.dydx.exchange/v1/accounts';
